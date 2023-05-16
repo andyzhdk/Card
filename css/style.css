@@ -9,12 +9,10 @@ body {
     color: #F06F12;
 }
 
-
-#card-wrapper {
-    width: 300px;
-    height: 540px;
-    margin-left: 200px;
-    margin-top: 200px;
+#card {
+  width: 300px;
+  height: 540px;
+  margin: 40px auto 0 auto;
 }
 
 .upper-section {
@@ -42,8 +40,7 @@ body {
     background: linear-gradient(90.07deg, #FF9D2B -1.35%, #FF772B 100.93%);
     border-radius: 5px;
     bottom: 20px;
-    left: -20px;
-
+    left: -15px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -72,32 +69,24 @@ body {
     position: relative;
 }
 
+/* CSS copied from "https://codepen.io/chrisboon27/pen/kPpYOR" */
 #xiangling-img {
     background:url('../img/xiangling.png') -25px -50px;
     background-repeat: no-repeat;
     background-position: bottom;
     width:100%;
     z-index:0;
-      height:100%;
-      background-size: calc(90% + 50px);
+    height:100%;
+    background-size: calc(90% + 50px);
+    transition: all 0.1s;
 }
+
 
 #xiangling-title {
     position: absolute;
     top: 0;
     right: 0;
     width: 30px;
-}
-
-#selection-title {
-    font-size: 14px;
-    position: absolute;
-    bottom: 75px;
-    width: 100%;
-    text-align: center;
-
-    font-family: genshin;
-    color: #F06F12;
 }
 
 .attacks-carousel {

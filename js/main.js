@@ -51,7 +51,8 @@
         }
     }
 
-    var movementStrength = 35;
+    // JS copied from "https://codepen.io/chrisboon27/pen/kPpYOR"
+    var movementStrength = 50;
     var height = movementStrength / $(window).height();
     var width = movementStrength / $(window).width();
     $("#xiangling-img").mousemove(function(e){
